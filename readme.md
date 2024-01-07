@@ -21,6 +21,7 @@ The application aims for a consistent output of 60 frames per second (fps).
 
 - **Platform Limitation:** Originally intended for QNX platform, but also intended for Linux due to the absence of QNX OS. Hence, POSIX queues were used instead of the QNX message API.
 - **Namespaces:** Not implemented to condense code and enhance readability.
+- **Interfaces:** Not used as well as polymorphism to simplify demo.
 - **Unit Tests:** Not implemented.
 - **Settings:** Not implemented.
 - **Logging:** Not implemented.
